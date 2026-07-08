@@ -91,10 +91,6 @@ nav a{
     background:#555;
 }
 
-/* ===========================
-   Featured Characters
-=========================== */
-
 .characters{
 
     padding:60px;
@@ -314,6 +310,63 @@ footer p{
     .abyss-text{
 
         text-align:center;
+
+    }
+
+}
+
+.episode{
+
+    padding:60px;
+
+    text-align:center;
+
+}
+
+.video-container{
+
+    max-width:900px;
+
+    margin:30px auto;
+
+}
+
+.video-container iframe{
+
+    width:100%;
+
+    height:500px;
+
+    border:none;
+
+}
+
+.episode h3{
+
+    margin-top:30px;
+    margin-bottom:15px;
+
+}
+
+.episode p{
+
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+
+}
+
+@media (max-width:768px){
+
+    .episode{
+
+        padding:30px 20px;
+
+    }
+
+    .video-container iframe{
+
+        height:250px;
 
     }
 
