@@ -90,3 +90,231 @@ nav a{
 .button:hover{
     background:#555;
 }
+
+/* ===========================
+   Featured Characters
+=========================== */
+
+.characters{
+
+    padding:60px;
+
+    background:white;
+
+    text-align:center;
+
+}
+
+.characters h2{
+
+    margin-bottom:40px;
+
+    font-size:32px;
+
+}
+
+.character-container{
+
+    display:flex;
+
+    gap:30px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:300px;
+
+    background:#f8f8f8;
+
+    padding:20px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+.card img{
+
+    width:100%;
+
+    height:250px;
+
+    background:#ddd;
+
+    border:2px solid #999;
+
+    object-fit:cover;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    line-height:1.6;
+
+}
+
+
+.abyss{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+    padding:60px;
+
+    background:#f4f4f4;
+
+    flex-wrap:wrap;
+
+}
+
+.abyss-text{
+
+    flex:1;
+
+    min-width:300px;
+
+}
+
+.abyss-text h2{
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+}
+
+.abyss-text p{
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+}
+
+.abyss-image{
+
+    flex:1;
+
+    min-width:300px;
+
+}
+
+.abyss-image img{
+
+    width:100%;
+
+    height:350px;
+
+    object-fit:cover;
+
+    background:#ddd;
+
+    border:2px solid #999;
+
+}
+
+footer{
+
+    background:#222;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px 20px;
+
+}
+
+footer p{
+
+    margin:8px 0;
+
+}
+
+
+@media (max-width:768px){
+
+    header{
+
+        flex-direction:column;
+
+        padding:20px;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:15px;
+
+        margin-top:20px;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        padding:30px 20px;
+
+        text-align:center;
+
+    }
+
+    .hero-text h2{
+
+        font-size:32px;
+
+    }
+
+    .characters{
+
+        padding:40px 20px;
+
+    }
+
+    .card{
+
+        width:100%;
+
+        max-width:350px;
+
+    }
+
+    .abyss{
+
+        flex-direction:column;
+
+        padding:40px 20px;
+
+    }
+
+    .abyss-text{
+
+        text-align:center;
+
+    }
+
+}
